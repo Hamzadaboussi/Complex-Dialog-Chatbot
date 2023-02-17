@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "jCs2XdXlU9d3KlZY28l5CVUcUzxKFzwsMBU5cINfXrc=",
+  "Source": "ComplexDialogBot",
+  "BasePath": "_content/ComplexDialogBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ComplexDialogBot\\wwwroot",
+      "Source": "ComplexDialogBot",
+      "ContentRoot": "C:\\Users\\daboussi\\botbuilder-samples\\samples\\csharp_dotnetcore\\43.complex-dialog\\wwwroot\\",
+      "BasePath": "_content/ComplexDialogBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\daboussi\\botbuilder-samples\\samples\\csharp_dotnetcore\\43.complex-dialog\\wwwroot\\default.htm",
+      "SourceId": "ComplexDialogBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\daboussi\\botbuilder-samples\\samples\\csharp_dotnetcore\\43.complex-dialog\\wwwroot\\",
+      "BasePath": "_content/ComplexDialogBot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
