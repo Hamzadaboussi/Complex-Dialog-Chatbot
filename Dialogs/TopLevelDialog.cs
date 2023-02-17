@@ -60,8 +60,6 @@ namespace Microsoft.BotBuilderSamples
             if(string.IsNullOrEmpty((string)result["name"] ))
             {         
                 var promptOptions = new PromptOptions { Prompt = MessageFactory.Text("Please enter your name.") };
-                var update =Builders<BsonDocument>.Update.Set("question1","Please enter your name.");
-                var result2 =collection.UpdateOne(filter , update );
                 return await stepContext.PromptAsync(nameof(TextPrompt), promptOptions, cancellationToken);
 
             }

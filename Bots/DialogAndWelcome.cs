@@ -55,7 +55,7 @@ namespace Microsoft.BotBuilderSamples
                 { "age", 0 },
                 { "choix1", "" },
                 { "choix2", "" },
-                {"question1",""},
+                
             };
 
             collection.InsertOne(document);
